@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient(1deg, #40a09f,#c8cfc4,#72a19a,#384d44);
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons a {
+    font-size: 1.5rem; /* Aumentar tamaño de iconos sociales */
+}
+
+.border {
+    border: 2px solid #007bff; /* Color de borde azul */
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para imágenes */
+}
+
+.list-group-item {
+    background-color: #e9ecef; /* Color de fondo de los elementos de la lista */
+}
+
+.galeria-img {
+    width: 100%; /* Hace que las imágenes ocupen todo el ancho del contenedor */
+    height: 250px; /* Establece una altura fija */
+    border: 5px solid #569eeb65; /* Color de borde azul */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra difusa */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    object-fit: cover; /* Mantiene la proporción de las imágenes */
+}
+
+.galeria-img:hover {
+    transform: scale(1.05); /* Aumentar tamaño ligeramente al pasar el mouse */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada al hacer hover */
+}
+.logo-container {
+    display: flex; /* Usa flexbox para alinear horizontalmente */
+    align-items: center; /* Alinea verticalmente en el centro */
+    justify-content: center; /* Centra horizontalmente */
+    margin: 20px 0; /* Añade espacio arriba y abajo */
+}
+
+.logo {
+    width: 60px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+h1 {
+    margin: 0; /* Elimina el margen por defecto del h1 */
+}
